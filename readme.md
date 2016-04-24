@@ -1,4 +1,9 @@
-# run-tests
+# run-tests [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url]
+
+[travis-image]: https://img.shields.io/travis/laat/run-tests.svg?style=flat
+[travis-url]: https://travis-ci.org/laat/run-tests
+[npm-image]: https://img.shields.io/npm/v/run-tests.svg?style=flat
+[npm-url]: https://npmjs.org/package/run-tests
 
 > Run tests.
 

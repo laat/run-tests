@@ -6,7 +6,7 @@ var resolvePath = require('path').resolve;
 var glob = require('glob');
 
 var doc = [
-	'Usage:',
+  'Usage:',
   '  run-tests [--require=<module>...] <file>...',
   '',
   'Options:',
@@ -20,9 +20,9 @@ args['--require'].forEach(function(module) {
 });
 
 args['<file>'].forEach(function (arg) {
-    glob(arg, function (err, files) {
-        files.forEach(function (file) {
-            require(resolvePath(cwd, file));
-        });
+  glob(arg, function (err, files) {
+    files.forEach(function (file) {
+      require(resolvePath(cwd, file));
     });
+  });
 });
