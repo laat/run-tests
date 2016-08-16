@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable global-require, import/newline-after-import */
 require('loud-rejection/register');
 var docopt = require('docopt').docopt;
 var resolveModule = require('resolve').sync;
@@ -10,12 +11,12 @@ var doc = [
   '  run-tests [--require=<module>...] <file>...',
   '',
   'Options:',
-  '  -r <module>, --require=<module>   Require a given module'
+  '  -r <module>, --require=<module>   Require a given module',
 ].join('\n');
 var args = docopt(doc, { version: require('./package.json').version });
 var cwd = process.cwd();
 
-args['--require'].forEach(function(module) {
+args['--require'].forEach(function (module) {
   require(resolveModule(module, { basedir: cwd }));
 });
 
