@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test:cli": "./cli.js -r assert test.js",
-    "test": "npm run lint && npm run test:cli",
+    "test": "npm run test:cli",
     "lint": "eslint ."
   },
   "files": [
