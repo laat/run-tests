@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test:cli": "./cli.js -r assert test.js",
-    "test": "npm run test:cli && npm run lint",
+    "test": "npm run test:cli # no lint, breaks on old versions in travis",
     "lint": "eslint ."
   },
   "files": [
