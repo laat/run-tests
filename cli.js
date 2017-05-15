@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/* eslint-disable global-require, import/newline-after-import */
+/* eslint-disable global-require, import/newline-after-import, import/no-dynamic-require */
 require('loud-rejection/register');
 var docopt = require('docopt').docopt;
 var resolveModule = require('resolve').sync;
