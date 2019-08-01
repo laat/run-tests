@@ -14,9 +14,7 @@
     "node": ">=0.10"
   },
   "scripts": {
-    "test:cli": "./cli.js -r assert test.js",
-    "test": "npm run test:cli # no lint, breaks on old versions in travis",
-    "lint": "eslint ."
+    "test": "./cli.js -r assert test.js"
   },
   "files": [
     "cli.js"
@@ -32,10 +30,5 @@
     "glob": "^7.1.1",
     "loud-rejection": "^2.1.0",
     "resolve": "^1.3.3"
-  },
-  "devDependencies": {
-    "eslint": "^4.18.2",
-    "eslint-config-airbnb-base": "^11.2.0",
-    "eslint-plugin-import": "^2.2.0"
   }
 }
