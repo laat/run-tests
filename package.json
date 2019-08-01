@@ -7,7 +7,7 @@
   "author": {
     "name": "Sigurd Fosseng",
     "email": "sigurd@fosseng.net",
-    "url": "github.com/laat"
+    "url": "https://github.com/laat"
   },
   "bin": "cli.js",
   "engines": {
