@@ -1,6 +1,6 @@
 {
   "name": "run-tests",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "run tests cli",
   "license": "MIT",
   "repository": "laat/run-tests",
