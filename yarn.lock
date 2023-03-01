@@ -35,8 +35,8 @@ function-bind@^1.1.1:
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
 
 glob@^9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-9.0.1.tgz#4f2c8a645659d81177bcf792761b52862696ca4e"
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-9.0.2.tgz#9f048465b4c78a016615b5784b016d2907ea840b"
   dependencies:
     fs.realpath "^1.0.0"
     minimatch "^7.3.0"
