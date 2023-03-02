@@ -35,11 +35,11 @@ function-bind@^1.1.1:
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
 
 glob@^9.0.1:
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-9.0.2.tgz#9f048465b4c78a016615b5784b016d2907ea840b"
+  version "9.1.2"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-9.1.2.tgz#6587a51675a7273191654e0a912a22a0e4ca7a44"
   dependencies:
     fs.realpath "^1.0.0"
-    minimatch "^7.3.0"
+    minimatch "^7.4.1"
     minipass "^4.2.4"
     path-scurry "^1.5.0"
 
@@ -66,9 +66,9 @@ lru-cache@^7.14.1:
   version "7.17.0"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.17.0.tgz#00c7ba5919e5ea7c69ff94ddabbf32cb09ab805c"
 
-minimatch@^7.3.0:
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-7.3.0.tgz#cfb7337e7460308e7147c58250fa0dee3da7929c"
+minimatch@^7.4.1:
+  version "7.4.2"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-7.4.2.tgz#157e847d79ca671054253b840656720cb733f10f"
   dependencies:
     brace-expansion "^2.0.1"
 
