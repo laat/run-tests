@@ -101,11 +101,11 @@ function-bind@^1.1.1:
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
 
 glob@^10.0.0:
-  version "10.3.15"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-10.3.15.tgz#e72bc61bc3038c90605f5dd48543dc67aaf3b50d"
+  version "10.3.16"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-10.3.16.tgz#bf6679d5d51279c8cfae4febe0d051d2a4bf4c6f"
   dependencies:
     foreground-child "^3.1.0"
-    jackspeak "^2.3.6"
+    jackspeak "^3.1.2"
     minimatch "^9.0.1"
     minipass "^7.0.4"
     path-scurry "^1.11.0"
@@ -130,9 +130,9 @@ isexe@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
 
-jackspeak@^2.3.6:
-  version "2.3.6"
-  resolved "https://registry.yarnpkg.com/jackspeak/-/jackspeak-2.3.6.tgz#647ecc472238aee4b06ac0e461acc21a8c505ca8"
+jackspeak@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/jackspeak/-/jackspeak-3.1.2.tgz#eada67ea949c6b71de50f1b09c92a961897b90ab"
   dependencies:
     "@isaacs/cliui" "^8.0.2"
   optionalDependencies:
